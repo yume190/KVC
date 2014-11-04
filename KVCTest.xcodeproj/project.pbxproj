@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A8A55E5219831B0800F3A969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A55E5119831B0800F3A969 /* main.m */; };
+		A8A55E5A19831B1A00F3A969 /* Yume.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A55E5919831B1A00F3A969 /* Yume.m */; };
+		A8A55E5D19831B2000F3A969 /* Dream.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A55E5C19831B2000F3A969 /* Dream.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A8A55E4E19831B0800F3A969 /* KVCTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KVCTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A55E5119831B0800F3A969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8A55E5819831B1A00F3A969 /* Yume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yume.h; sourceTree = "<group>"; };
+		A8A55E5919831B1A00F3A969 /* Yume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yume.m; sourceTree = "<group>"; };
+		A8A55E5B19831B2000F3A969 /* Dream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dream.h; sourceTree = "<group>"; };
+		A8A55E5C19831B2000F3A969 /* Dream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dream.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		A8A55E4519831B0800F3A969 = {
 			isa = PBXGroup;
 			children = (
+				A8A55E5819831B1A00F3A969 /* Yume.h */,
+				A8A55E5919831B1A00F3A969 /* Yume.m */,
+				A8A55E5B19831B2000F3A969 /* Dream.h */,
+				A8A55E5C19831B2000F3A969 /* Dream.m */,
 				A8A55E5019831B0800F3A969 /* KVCTest */,
 				A8A55E4F19831B0800F3A969 /* Products */,
 			);
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A55E5D19831B2000F3A969 /* Dream.m in Sources */,
 				A8A55E5219831B0800F3A969 /* main.m in Sources */,
+				A8A55E5A19831B1A00F3A969 /* Yume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
