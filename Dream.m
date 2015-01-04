@@ -19,6 +19,10 @@
 
 @implementation Dream
 
+//+(BOOL)accessInstanceVariablesDirectly{
+//    return NO;
+//}
+
 -(instancetype)init{
     self = [super init];
     if (self) {
