@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80A7A511A504CD100EE6395 /* KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A80A7A501A504CD100EE6395 /* KVC.m */; };
+		A84BF9261A5835E600052D4B /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = A84BF9251A5835E600052D4B /* Validation.m */; };
 		A8A55E5219831B0800F3A969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A55E5119831B0800F3A969 /* main.m */; };
 		A8A55E5A19831B1A00F3A969 /* Yume.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A55E5919831B1A00F3A969 /* Yume.m */; };
 		A8A55E5D19831B2000F3A969 /* Dream.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A55E5C19831B2000F3A969 /* Dream.m */; };
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A80A7A4F1A504CD100EE6395 /* KVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVC.h; sourceTree = "<group>"; };
+		A80A7A501A504CD100EE6395 /* KVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVC.m; sourceTree = "<group>"; };
+		A84BF9241A5835E600052D4B /* Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validation.h; sourceTree = "<group>"; };
+		A84BF9251A5835E600052D4B /* Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validation.m; sourceTree = "<group>"; };
 		A8A55E4E19831B0800F3A969 /* KVCTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KVCTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A55E5119831B0800F3A969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8A55E5819831B1A00F3A969 /* Yume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yume.h; sourceTree = "<group>"; };
@@ -47,8 +53,12 @@
 		A8A55E4519831B0800F3A969 = {
 			isa = PBXGroup;
 			children = (
+				A80A7A4F1A504CD100EE6395 /* KVC.h */,
+				A80A7A501A504CD100EE6395 /* KVC.m */,
 				A8A55E5819831B1A00F3A969 /* Yume.h */,
 				A8A55E5919831B1A00F3A969 /* Yume.m */,
+				A84BF9241A5835E600052D4B /* Validation.h */,
+				A84BF9251A5835E600052D4B /* Validation.m */,
 				A8A55E5B19831B2000F3A969 /* Dream.h */,
 				A8A55E5C19831B2000F3A969 /* Dream.m */,
 				A8A55E5019831B0800F3A969 /* KVCTest */,
@@ -131,6 +141,8 @@
 				A8A55E5D19831B2000F3A969 /* Dream.m in Sources */,
 				A8A55E5219831B0800F3A969 /* main.m in Sources */,
 				A8A55E5A19831B1A00F3A969 /* Yume.m in Sources */,
+				A80A7A511A504CD100EE6395 /* KVC.m in Sources */,
+				A84BF9261A5835E600052D4B /* Validation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +256,7 @@
 				A8A55E5719831B0800F3A969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

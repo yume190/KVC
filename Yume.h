@@ -10,7 +10,9 @@
 
 @interface Yume : NSObject
 
-@property (nonatomic, strong) NSString *yume;
+@property (nonatomic, strong, getter=fromYume,setter=setToYume:) NSString *yume;
+-(NSString *)fromYume;
+-(void)setToYume:(NSString *)value;
 
 -(NSString *)yume1;
 

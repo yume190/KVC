@@ -10,8 +10,10 @@
 
 @interface Dream()
 {
-//    NSString *_dream;
-//    NSString *dream;
+    NSString *_dream;
+    NSString *_isDream;
+    NSString *dream;
+    NSString *isDream;
 }
 @end
 
@@ -20,41 +22,51 @@
 -(instancetype)init{
     self = [super init];
     if (self) {
-//        _dream = @"Yume4";
-//        dream = @"Yume5";
+        _dream = @"6. ivar _dream";
+        _isDream = @"7. ivar _isDream";
+        dream = @"8. ivar dream";
+        isDream = @"9. ivar isDream";
     }
     return self;
 }
 
-//-(NSString *)getDream{
-//    return @"Yume1H";
-//}
-
-//-(NSString *)dream{
-//    return @"Yume2H";
-//}
-
-//-(NSString *)isDream{
-//    return @"Yume3H";
-//}
-
-//-(NSString *)_getDream{
-//    return @"Yume1M";
-//}
-
-//-(NSString *)_dream{
-//    return @"Yume2M";
-//}
-
--(NSString *)_isDream{
-    return @"Yume3M";
+-(NSString *)getDream{
+    return @"1. getDream";
 }
 
-//-(id)valueForUndefinedKey:(NSString *)key{
-//    if ([key isEqualTo:@"dream"]) {
-//        return @"Yume6";
-//    }
-//    return nil;
-//}
+-(NSString *)dream{
+    return @"2. dream";
+}
+
+-(NSString *)isDream{
+    return @"3. isDream";
+}
+
+-(NSString *)_getDream{
+    return @"4. _getDream";
+}
+
+-(NSString *)_dream{
+    return @"5. _dream";
+}
+
+-(NSString *)_isDream{
+    return @"No Use";
+}
+
+-(NSString *)getPrimitiveDream{
+    return @"10. getPrimitiveDream";
+}
+
+-(NSString *)primitiveDream{
+    return @"11. primitiveDream";
+}
+
+-(id)valueForUndefinedKey:(NSString *)key{
+    if ([key isEqualTo:@"dream"]) {
+        return @"12. valueForUndefinedKey";
+    }
+    return nil;
+}
 
 @end

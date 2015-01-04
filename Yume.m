@@ -11,19 +11,30 @@
 @interface Yume ()
 {
     NSString *yume3;
+    NSString *iYume;
 }
 @end
 
 @implementation Yume
 
+@synthesize yume = iYume;
+
 -(instancetype)init{
     self = [super init];
     if (self) {
-        _yume = @"dream";
+        iYume = @"iYume";
         yume3 = @"dream3";
         
     }
     return self;
+}
+
+-(NSString *)fromYume{
+    return iYume;
+}
+
+-(void)setToYume:(NSString *)value{
+    iYume = value;
 }
 
 -(NSString *)yume1{
