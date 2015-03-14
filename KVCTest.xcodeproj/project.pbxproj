@@ -226,6 +226,7 @@
 		A8A55E5619831B0800F3A969 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CC = "$(SRCROOT)/KVCValidator/clang_warning_wrapper.sh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -233,6 +234,7 @@
 		A8A55E5719831B0800F3A969 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CC = "$(SRCROOT)/KVCValidator/clang_warning_wrapper.sh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

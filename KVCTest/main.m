@@ -26,7 +26,19 @@ int main(int argc, const char * argv[]) {
         Dream *dream = [Dream new];
         NSLog(@"%@",[dream valueForKey:@"dream"]);
         
+        
+        
         // Questions : http://yume190.github.io/2014/07/10/2014-07-10-ios-kvc-wen-ti-ji/
+        
+        NSArray *friendList = @[@{@"name":@"Yume",@"phone":@1234,@"tools":@[@"Objc",@"Swift",@"KVC"]},
+                                @{@"name":@"dream",@"phone":@5678,@"tools":@[@"java",@"android",@"python"]}];
+        
+        [friendList valueForKey:@"name"];
+        [friendList valueForKey:@"phone"];
+        [friendList valueForKeyPath:@"tools.uppercaseString"];
+        
+        NSDictionary *ios = @{@"apple":@{@"ios":@{@"objc":@"kvc"}}};
+        [ios valueForKeyPath:@"apple.ios.objc.uppercaseString"];
         
         // Question 1 : If we assign property getter & setter, then synthesize it to another ivar. How KVC working?
         // @property (nonatomic, strong, getter=fromYume,setter=setToYume:) NSString *yume;
@@ -34,7 +46,7 @@ int main(int argc, const char * argv[]) {
         // iYume = @"iYume";
         
         NSLog(@"%@",yume.yume);                         // iYume
-        NSLog(@"%@",[yume valueForKey:@"yume"]);        // null
+//        NSLog(@"%@",[yume valueForKey:@"yume"]);      // UndefinedKey KVC Exception
 //        [yume setValue:@"My Yume" forKey:@"yume"];    // UndefinedKey KVC Exception
         
         [yume setValue:@"My Yume" forKey:@"toYume"];

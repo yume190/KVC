@@ -12,6 +12,7 @@
 {
     NSString *yume3;
     NSString *iYume;
+//    NSString *yume;
 }
 @end
 
@@ -19,12 +20,16 @@
 
 @synthesize yume = iYume;
 
+//+(BOOL)accessInstanceVariablesDirectly{
+//    return NO;
+//}
+
 -(instancetype)init{
     self = [super init];
     if (self) {
         iYume = @"iYume";
         yume3 = @"dream3";
-        
+//        yume = @"who";
     }
     return self;
 }
@@ -49,7 +54,7 @@
     if ([key isEqualTo:@"yume4"]) {
         return @"dream4";
     }
-    return nil;
+    return [super valueForUndefinedKey:key];
 }
 
 @end
